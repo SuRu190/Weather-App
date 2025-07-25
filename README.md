@@ -42,10 +42,11 @@ A creative and responsive Weather App that shows real-time weather information f
 
 ## 📁 Project Folder Structure
 
-Weather-App/
+```bash
+To-Do-List/
 │
 ├── index.html          # Main HTML structure
 ├── style.css           # All custom styles and responsiveness
 ├── script.js           # JavaScript code for API call and DOM handling
 ├── desktop-view.png    # Screenshot of the final weather app
-└── README.md           # Project documentation (this file)
+└── README.md           # Project documentation
