@@ -41,6 +41,7 @@ It fetches real-time weather data using the **OpenWeatherMap API** and displays 
 
 ```bash
 Weather-App/
+|
 │── index.html
 │── style.css
 │── script.js
