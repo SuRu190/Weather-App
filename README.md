@@ -1,52 +1,47 @@
 # 🌤️ Weather App
 
-A creative and responsive Weather App that shows real-time weather information for any city using the **OpenWeatherMap API**. Built with **HTML**, **CSS**, and **JavaScript**, this project is perfect for practicing API integration, DOM manipulation, and frontend development.
+A responsive and feature-rich **Weather App** built using **HTML, CSS, and JavaScript**.  
+It fetches real-time weather data using the **OpenWeatherMap API** and displays **current weather + 5-day forecast** along with icons.
+
+---
+![Preview Screenshot](desktop-view.png)
 
 ---
 
-## 📸 Screenshot
+### 🔗 Live Demo
 
-![Desktop View](desktop-view.png)
-
----
-
-## 🔗 Live Demo
-
-👉 [Click Here to View Live](https://suru190.github.io/Weather-App/)
+👉 [Click here to View](https://suru190.github.io/Weather-App/)
 
 ---
 
-## ✨ Features
-
-- 🔍 Search for any city worldwide
-- 🎯 Displays:
-  - City name & country
-  - Temperature in °C
-  - Weather condition with icon
-  - Humidity level
-- ⌨️ Press `Enter` or click `Search` button
-- 🔄 Loading indicator while data is being fetched
-- ❌ Error message if city not found
-- 📱 Fully responsive design (mobile, tablet, desktop)
-
----
-
-## 🚀 Technologies Used
-
-- HTML5
-- CSS3 (Flexbox + Responsive Design)
-- JavaScript (ES6+)
-- OpenWeatherMap API
+## ✅ Features
+- Search weather by **city name**.
+- Displays:
+  - 🌡️ Temperature (°C)
+  - 🌥️ Weather condition
+  - 💧 Humidity
+  - 🗺️ City & Country name
+- **Weather icons** for better visualization.
+- **5-Day Forecast** section.
+- Shows **loading animation** while fetching.
+- **Error handling** (invalid city names).
+- Fully **responsive design** (works on desktop, tablet, and mobile screens).
 
 ---
 
-## 📁 Project Folder Structure
+## 🛠️ Technologies Used
+- **HTML5**
+- **CSS3 (Flexbox & Media Queries)**
+- **Vanilla JavaScript (ES6)**
+- **OpenWeatherMap API**
+
+---
+
+## 📂 Project Structure
 
 ```bash
-To-Do-List/
-│
-├── index.html          # Main HTML structure
-├── style.css           # All custom styles and responsiveness
-├── script.js           # JavaScript code for API call and DOM handling
-├── desktop-view.png    # Screenshot of the final weather app
-└── README.md           # Project documentation
+Weather-App/
+│── index.html
+│── style.css
+│── script.js
+│── desktop-view.png
