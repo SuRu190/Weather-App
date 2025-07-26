@@ -26,6 +26,7 @@ body {
 
 h1 {
     margin-bottom: 20px;
+    font-size: 1.6rem;
     color: #333;
 }
 
@@ -34,6 +35,7 @@ h1 {
     justify-content: space-between;
     gap: 10px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 input {
@@ -42,9 +44,8 @@ input {
     border-radius: 6px;
     border: 2px solid #ccc;
     font-size: 16px;
-    /* width: 65%; */
+    min-width: 0;
     outline: none;
-    /* margin-right: 10px; */
 }
 
 button {
@@ -56,6 +57,7 @@ button {
     cursor: pointer;
     font-weight: 600;
     transition: background 0.3s ease;
+    white-space: nowrap;
 }
 
 button:hover {
@@ -85,16 +87,71 @@ button:hover {
 }
 
 .weather-card img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
-@media (max-width: 480px) {
+.forecast-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.forecast-card {
+    background: #d3d2d2;
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+    min-width: 100px;
+    margin-bottom: 10px;
+}
+
+.forecast-card img {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 440px) {
+    .forecast-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .forecast-card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 360px) {
     .search-box {
         flex-direction: column;
     }
 
-    button {
+    input, button {
         width: 100%;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
     }
 }
+/*
+@media (max-width: 190px) {
+    input, button {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .weather-card img {
+        width: 60px;
+        height: 60px;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+}*/
