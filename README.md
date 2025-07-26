@@ -32,7 +32,7 @@ It fetches real-time weather data using the **OpenWeatherMap API** and displays 
 ## 🛠️ Technologies Used
 - **HTML5**
 - **CSS3 (Flexbox & Media Queries)**
-- **Vanilla JavaScript (ES6)**
+- **JavaScript (ES6)**
 - **OpenWeatherMap API**
 
 ---
