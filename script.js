@@ -1,4 +1,4 @@
-const apiKey = "3e0ed8d1e7d2758978e785af64ecc9d4";
+const apiKey = WEATHER_API_KEY;
 
 const searchBtn = document.getElementById("searchBtn");
 const cityInput = document.getElementById("cityInput");
@@ -82,3 +82,4 @@ searchBtn.addEventListener("click", fetchWeather);
 cityInput.addEventListener("keyup", (e) => {
     if (e.key === "Enter") fetchWeather();
 });
+
