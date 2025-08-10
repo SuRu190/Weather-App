@@ -64,7 +64,7 @@ button:hover {
     background-color: #388e3c;
 }
 
-.weather-info p{
+.weather-box p {
     margin: 8px 0;
     font-size: 18px;
     color: #333;
@@ -139,19 +139,15 @@ button:hover {
         font-size: 1.2rem;
     }
 }
-/*
-@media (max-width: 190px) {
-    input, button {
-        font-size: 12px;
-        padding: 8px;
-    }
 
-    .weather-card img {
-        width: 60px;
-        height: 60px;
-    }
-
-    h1 {
-        font-size: 1rem;
-    }
-}*/
+/* Accessibility */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
