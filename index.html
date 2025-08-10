@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App | Project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>🌤️ Weather App</h1>
-        <div class="search-box">
-            <input type="text" id="cityInput" placeholder="Enter city name...">
-            <button id="searchBtn">Search</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A simple and responsive Weather App that shows current weather and a 5-day forecast for any city using the OpenWeather API.">
+        <link rel="shortcut icon" href="weather.png" type="image/x-icon">
+        <title>Weather App | Project</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>🌤️ Weather App</h1>
+            <div class="search-box">
+                <input type="text" id="cityInput" placeholder="Enter city name...">
+                <button id="searchBtn">Search</button>
+            </div>
+            <div class="weather-box" id="weatherInfo">
+                <!-- Current Weather and Forecast will be injected here -->
+            </div>
         </div>
-        <div class="weather-box" id="weatherInfo">
-            <!-- Current Weather and Forecast will be injected here -->
-        </div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
-
-
+        
+        <script src="script.js"></script>
+    </body>
+    </html>
