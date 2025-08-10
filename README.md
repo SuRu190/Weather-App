@@ -1,6 +1,7 @@
+
 ---
 
-# 🌤️ Weather App
+## **🌤️ Weather App – README.md**
 ```markdown
 A responsive and feature-rich **Weather App** built using **HTML, CSS, and JavaScript**.  
 It fetches **real-time weather data** from the **OpenWeatherMap API** and displays **current weather** and a **5-day forecast** with icons.
