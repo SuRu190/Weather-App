@@ -1,39 +1,58 @@
+---
+
 # 🌤️ Weather App
 
-A responsive and feature-rich **Weather App** that fetches real-time data from the **OpenWeatherMap API**.  
-It displays the current weather, a 5-day forecast, and weather icons for a clean and intuitive experience.
+## 📌 Description  
+A responsive and feature-rich **Weather App** built using **HTML, CSS, and JavaScript**.  
+It fetches **real-time weather data** using the **OpenWeatherMap API** and displays both **current weather** and a **5-day forecast** with icons for a better user experience.  
 
 ---
 
-![Preview Screenshot](desktop-view.png)
+## 🚀 Live Demo  
+[View Live Project](https://suru190.github.io/Weather-App/)
 
 ---
 
-## 🔗 Live Demo
-👉 [Click here to View](https://suru190.github.io/Weather-App/)
+## 📸 Screenshots  
+
+### 💻 Desktop View  
+![Desktop View](desktop-view.png)
 
 ---
 
-## ✅ Features
-- Search weather by city name
-- Show temperature, weather condition, humidity, location
-- Weather icons for visual clarity
-- 5-day forecast display
-- Loading animation during data fetch
-- Error handling for invalid city names
-- Fully responsive
+## ✅ Features  
+- Search weather by **city name**.  
+- Display:  
+  - 🌡️ Temperature (°C)  
+  - 🌥️ Weather condition  
+  - 💧 Humidity  
+  - 🗺️ City & Country name  
+- Weather icons for better visualization.  
+- **5-Day Forecast** section.  
+- Loading animation while fetching data.  
+- Error handling for invalid city names.  
+- Fully responsive design for desktop, tablet, and mobile.  
 
 ---
 
-## 🛠️ Technologies Used
-- **HTML5**
-- **CSS3 (Flexbox, Media Queries)**
-- **JavaScript (ES6)**
-- **OpenWeatherMap API**
+## 🛠️ Technologies Used  
+- **HTML5**  
+- **CSS3 (Flexbox & Media Queries)**  
+- **JavaScript (ES6)**  
+- **OpenWeatherMap API**  
+
+---
+
+## 📚 What I Learned  
+- Fetching and handling API data in JavaScript.  
+- Parsing and displaying structured forecast data.  
+- Implementing loading animations for better UX.  
+- Using responsive design techniques for multiple devices.  
 
 ---
 
 ## 📂 Project Structure
+
 ```bash
 Weather-App/
 │── index.html
