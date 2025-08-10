@@ -1,58 +1,45 @@
 ---
 
 # 🌤️ Weather App
-
-## 📌 Description  
+```markdown
 A responsive and feature-rich **Weather App** built using **HTML, CSS, and JavaScript**.  
-It fetches **real-time weather data** using the **OpenWeatherMap API** and displays both **current weather** and a **5-day forecast** with icons for a better user experience.  
+It fetches **real-time weather data** from the **OpenWeatherMap API** and displays **current weather** and a **5-day forecast** with icons.
 
 ---
 
-## 🚀 Live Demo  
-[View Live Project](https://suru190.github.io/Weather-App/)
+![Preview Screenshot](desktop-view.png)
 
 ---
 
-## 📸 Screenshots  
-
-### 💻 Desktop View  
-![Desktop View](desktop-view.png)
+## 🔗 Live Demo
+👉 [Click here to View](https://suru190.github.io/Weather-App/)
 
 ---
 
-## ✅ Features  
-- Search weather by **city name**.  
-- Display:  
+## ✅ Features
+- Search weather by **city name**
+- Display:
   - 🌡️ Temperature (°C)  
   - 🌥️ Weather condition  
   - 💧 Humidity  
-  - 🗺️ City & Country name  
-- Weather icons for better visualization.  
-- **5-Day Forecast** section.  
-- Loading animation while fetching data.  
-- Error handling for invalid city names.  
-- Fully responsive design for desktop, tablet, and mobile.  
+  - 🗺️ City & Country name
+- Weather icons for better visualization
+- **5-Day Forecast** section
+- Loading animation while fetching data
+- Error handling for invalid city names
+- Fully responsive design for all devices
 
 ---
 
-## 🛠️ Technologies Used  
-- **HTML5**  
-- **CSS3 (Flexbox & Media Queries)**  
-- **JavaScript (ES6)**  
-- **OpenWeatherMap API**  
-
----
-
-## 📚 What I Learned  
-- Fetching and handling API data in JavaScript.  
-- Parsing and displaying structured forecast data.  
-- Implementing loading animations for better UX.  
-- Using responsive design techniques for multiple devices.  
+## 🛠️ Technologies Used
+- **HTML5**
+- **CSS3 (Flexbox & Media Queries)**
+- **JavaScript (ES6)**
+- **OpenWeatherMap API**
 
 ---
 
 ## 📂 Project Structure
-
 ```bash
 Weather-App/
 │── index.html
