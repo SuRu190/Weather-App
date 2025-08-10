@@ -1,48 +1,43 @@
 # 🌤️ Weather App
 
-A responsive and feature-rich **Weather App** built using **HTML, CSS, and JavaScript**.  
-It fetches real-time weather data using the **OpenWeatherMap API** and displays **current weather + 5-day forecast** along with icons.
+A responsive and feature-rich **Weather App** that fetches real-time data from the **OpenWeatherMap API**.  
+It displays the current weather, a 5-day forecast, and weather icons for a clean and intuitive experience.
 
 ---
+
 ![Preview Screenshot](desktop-view.png)
 
 ---
 
-### 🔗 Live Demo
-
+## 🔗 Live Demo
 👉 [Click here to View](https://suru190.github.io/Weather-App/)
 
 ---
 
 ## ✅ Features
-- Search weather by **city name**.
-- Displays:
-  - 🌡️ Temperature (°C)
-  - 🌥️ Weather condition
-  - 💧 Humidity
-  - 🗺️ City & Country name
-- **Weather icons** for better visualization.
-- **5-Day Forecast** section.
-- Shows **loading animation** while fetching.
-- **Error handling** (invalid city names).
-- Fully **responsive design** (works on desktop, tablet, and mobile screens).
+- Search weather by city name
+- Show temperature, weather condition, humidity, location
+- Weather icons for visual clarity
+- 5-day forecast display
+- Loading animation during data fetch
+- Error handling for invalid city names
+- Fully responsive
 
 ---
 
 ## 🛠️ Technologies Used
 - **HTML5**
-- **CSS3 (Flexbox & Media Queries)**
+- **CSS3 (Flexbox, Media Queries)**
 - **JavaScript (ES6)**
 - **OpenWeatherMap API**
 
 ---
 
 ## 📂 Project Structure
-
 ```bash
 Weather-App/
-|
 │── index.html
 │── style.css
 │── script.js
 │── desktop-view.png
+└── README.md
