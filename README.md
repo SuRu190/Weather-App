@@ -8,7 +8,9 @@ It fetches **real-time weather data** from the **OpenWeatherMap API** and displa
 
 ---
 
-![Preview Screenshot](desktop-view.png)
+![Dekstop Screenshot](desktop-view.png)
+
+![Mobile Screenshot](mobile-view.png)
 
 ---
 
